@@ -150,7 +150,7 @@ public class ExternalChainingHashMap<K, V> {
 
 
     private double calcLoadFactor() {
-        return this.size / this.table.length;
+        return (double)this.size / (double)this.table.length;
     }
 
 
